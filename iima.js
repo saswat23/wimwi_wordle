@@ -6,9 +6,9 @@ var col = 0; //current letter for that attempt
 
 var gameOver = false;
 // var word = "SQUID";
-var wordList = ["ankur", "micro", "macro",	"cases",	"chaos",	"class",	"convo",	"cribs ",	"decks",	"dorms",	"dunks",	"facha",	"garba",	"globe",	"group",	"hitch",	"ischol",	"juice",	"junta",	"karna",	"klmdc",	"lawns",	"maggu",	"pande",	"profs",	"sahay",	"saral",	"soaps",	"tempo",	"terms",	"tucha",	"tumbe",	"whack",	"wimwi",	"wings",	"tnite",	"sandip",	"errol",	"naman", "kamla",	"pritha",	"ghosh",	"gupta",	"anand",	"joshy",	"jacob",	"tarun",	"arnab",	"sunil",	"nagar",	"pathak",	"anish",	"soman",	"varma",	"verma",	"chand",	"brick",	"plaza",	"sarin"]
+var wordList = ["ankur", "micro", "macro",	"cases",	"chaos",	"class",	"convo",	"cribs ",	"decks",	"dorms",	"dunks",	"facha",	"garba",	"globe",	"group",	"hitch",	"juice",	"junta",	"karna",	"klmdc",	"lawns",	"maggu",	"pande",	"profs",	"sahay",	"saral",	"soaps",	"tempo",	"terms",	"tucha",	"tumbe",	"whack",	"wimwi",	"wings",	"tnite",	"sandip",	"errol",	"naman", "kamla",	"pritha",	"ghosh",	"gupta",	"anand",	"joshy",	"jacob",	"tarun",	"arnab",	"sunil",	"nagar",	"pathak",	"anish",	"soman",	"varma",	"verma",	"chand",	"brick",	"plaza",	"sarin"]
 
-var guessList = ["ankur", "micro", "macro",	"cases",	"chaos",	"class",	"convo",	"cribs ",	"decks",	"dorms",	"dunks",	"facha",	"garba",	"globe",	"group",	"hitch",	"ischol",	"juice",	"junta",	"karna",	"klmdc",	"lawns",	"maggu",	"pande",	"profs",	"sahay",	"saral",	"soaps",	"tempo",	"terms",	"tucha",	"tumbe",	"whack",	"wimwi",	"wings",	"tnite",	"sandip",	"errol",	"naman", "kamla",	"pritha",	"ghosh",	"gupta",	"anand",	"joshy",	"jacob",	"tarun",	"arnab",	"sunil",	"nagar",	"pathak",	"anish",	"soman",	"varma",	"verma",	"chand",	"brick",	"plaza",	"sarin"]
+var guessList = ["ankur", "micro", "macro",	"cases",	"chaos",	"class",	"convo",	"cribs ",	"decks",	"dorms",	"dunks",	"facha",	"garba",	"globe",	"group",	"hitch",	"juice",	"junta",	"karna",	"klmdc",	"lawns",	"maggu",	"pande",	"profs",	"sahay",	"saral",	"soaps",	"tempo",	"terms",	"tucha",	"tumbe",	"whack",	"wimwi",	"wings",	"tnite",	"sandip",	"errol",	"naman", "kamla",	"pritha",	"ghosh",	"gupta",	"anand",	"joshy",	"jacob",	"tarun",	"arnab",	"sunil",	"nagar",	"pathak",	"anish",	"soman",	"varma",	"verma",	"chand",	"brick",	"plaza",	"sarin"]
 
 guessList = guessList.concat(wordList);
 
