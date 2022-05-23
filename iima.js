@@ -131,7 +131,7 @@ function update() {
     console.log(guess);
 
     if (!guessList.includes(guess)) {
-        document.getElementById("answer").innerText = "Not in word list";
+        document.getElementById("answer").innerText = "Not a WIMWI word, enter another word";
         return;
     }
     
